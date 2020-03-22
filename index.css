@@ -1,0 +1,152 @@
+body {
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 445px;
+  height: 514px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  position: absolute;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top a {
+  text-decoration: none;
+  margin: 40px;
+  font-size: 24px;
+  color: black;
+}
+
+/* .inputbox{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    border: 1px solid #ced4da;
+    width: 380px;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+} */
+.input1 {
+  border: 1px solid #ced4da;
+  width: 380px;
+  height: 50px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+/* .input2{
+    border: 1px solid #ced4da;
+    width:380px ;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+} */
+.inputbox {
+  border: none;
+  border-color: rgba(255, 255, 255, 0);
+
+  width: 300px;
+  height: 40px;
+  margin: 3px 25px;
+}
+.label1 {
+  position: relative;
+  bottom: 33px;
+  left: 26px;
+  font-size: 17px;
+}
+
+.label2 {
+  position: relative;
+  bottom: 40px;
+  left: 25px;
+  font-size: 10px;
+}
+
+.Check {
+  position: relative;
+}
+
+.Check input {
+  position: relative;
+  right: 102px;
+  bottom: 2px;
+}
+
+.Check label {
+  position: relative;
+  right: 100px;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.btn:hover{
+    background-color: #0361c5;
+}
+.line {
+    position: relative;
+    bottom: 5px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+  width: 380px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom div {
+  border: 0;
+  display: flex;
+  justify-content: center;
+}
+.bottom div a {
+  font-family: Font Awesome 5 Brands;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 10px;
+  
+}
+.input1 img {
+  width: 35px;
+  height: 25px;
+}
+
+.img1 {
+  position: relative;
+  bottom: 8px;
+}
+.img2 {
+  position: relative;
+  bottom: 5px;
+}
+
+.a1{
+    margin-top: 25px;
+}
+.a2{
+    margin-top: 10px;
+}
+
